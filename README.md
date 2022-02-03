@@ -89,7 +89,7 @@ In addition, the concept dictionary is a collection of definitions for any conce
 
 ### [**User guidance**](patientflags-module/user-guide.md)
 
-![](../OneDrive/Pictures/Patient%20Flags%20on%20Patient%20Dashboard.png)
+![FlagsOnDashboard](image/Patient%20Flags%20on%20Patient%20Dashboard.png)
 
 <br>
 
@@ -100,8 +100,7 @@ In addition, the concept dictionary is a collection of definitions for any conce
 As discussed above, the **Concept Dictionary** is a list of all the medical and program-related terms that you will use as questions and answers in **Observations**; and **observation** is the actual health care information of a patient at a moment in time. OpenMRS allows users to import and customize their prefered medical terminology resources (both standard and non-standard), which will then be used in all patients' health data, e.g. weight, height, blood pressure. 
 Initial OpenMRS concept resource after setting up the server is a mixed source of clinical concepts from various concept dictionary terms mapped with others (i.e. SNOMED, ICD10, LOINC, etc.) New Zealand hospitals use the classification system [ICD-10-AM/ACHI/ACS](https://www.health.govt.nz/nz-health-statistics/classification-and-terminology/icd-10-am-achi-acs) and [SNOMED CT](https://browser.ihtsdotools.org/?perspective=full&conceptId1=404684003&edition=MAIN/SNOMEDCT-NZ/2021-10-01&release=&languages=en,mi) as standard for clinical terminology.
 
-
-![ConceptSources](file:///C:/Users/trank/OneDrive/Pictures/photos/Concept%20Sources.png)
+![ConceptSources](image/Concept%20Sources.png)
 
 Although OpenMRS has a standardized concept dictionary for understanding medical terms, there is a lack of official resources for clinicians to refer to when assessing patients' levels of critical care and abnormal health conditions.
 For example, for patients who had had their vitals captured by clinicians, their vitals can be abnormal in terms of high blood pressure, BMI in the obesity range, and so on. However, there were no resources shown to the patients answering:
@@ -110,16 +109,16 @@ For example, for patients who had had their vitals captured by clinicians, their
 1. From which resources say that their health conditions need critical care.
 1. Based on what resources and set of rules, OpenMRS and clinicians can define that this patient has a higher critical level and needs higher priority and care.
 
-![Flags](file:///C:/Users/trank/OneDrive/Pictures/Flags.png)
+![Flags](image/Flags.png)
 
 - In the photo above, with the latest observations, the Patient Flags module flagged three warning flags on this patient's dashboard, saying that some vitals were abnormal.
 
 - By noticing the different colours of those three flags, these flags have different levels of priority ranking, ranging from highest priority to lowest priority.
 - However, the rules for those flags are hardcoded in numbers and priority choices.
 
-![ConceptSearch](../OneDrive/Pictures/Search%20Concept%20in%20Concept%20Dictionary.png)
+![SearchConcept](image/Search%20Concept%20in%20Concept%20Dictionary.png)
  
-![HardcodedFlag](../OneDrive/Pictures/screen.png)
+![](image/screen.png)
 
 - The concept_id associated with temperature is 5058. The photo shows that creating a flag for alerting patients with high temperatures has to call the concept_id and hardcoded the temperature value is >= 38.5 °C.
 - Furthermore, from various priorities created from Manage Priority, the writer can freely choose the Priority level without any constraints. Message property, shown on the Patient Dashboard, can also be written randomly, even not related to the Flag criteria above.

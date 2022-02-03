@@ -31,7 +31,7 @@ mvn clean install -DskipTests=true -Dmaven.javadoc.skip=true --batch-mode --show
 
 > Module has been loaded and started successfully.
 
-![Module](../../OneDrive/Pictures/Module.png)
+![](../image/Module.png)
 
 However, Tomcat needs to initialize the changes, and there will be errors when trying to access the Patient Flags section below.
 ***Restart OpenMRS server after the above message appear***

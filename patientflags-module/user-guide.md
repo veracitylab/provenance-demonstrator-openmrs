@@ -9,9 +9,9 @@
 - View table of existing priorities: their name, indicator and rank.
 - Add New priorities - Select a name, numeric rank value and associated color indicator from a color swatch.
 - Modify existing priorities.
-- Delete priorities.
+- Delete priorities
 
-![ManagePriorities](../../OneDrive/Pictures/Manage%20Priorities.png)
+![](../image/Manage%20Priorities.png)
 
 **Note:**
 
@@ -29,19 +29,18 @@
 - Modify existing tags.
 - Delete tags.
 
-![ManageTags](../../OneDrive/Pictures/Manage%20Tags.png)
+![](../image/Manage%20Tags.png)
 
 #### **Edit Tag**
 
-![EditTags](file:///C:/Users/trank/OneDrive/Pictures/Edit%20Tags.png)
+![](../image/Edit%20Tags.png)
 
 **Note:**
 - Tag: The tag name 
 - Visible To: Allow choosing multiple user groups
 - Show In: referring to Display points, which is empty in the database. Because in Manage Flag Global Properties, the default setup is on both Patient Overview and Patient Header.
 
-![GlobalProperties](../../OneDrive/Pictures/flagProperties.png)
-
+![](../image/flagProperties.png)
 ---
 
 ### Manage Flags
@@ -52,9 +51,8 @@
 - Delete flags.
 - Filter flags by tags.
 
-![ExistingFlags](../../OneDrive/Pictures/Manage%20Flags.png)
-
-![EditFlag](../../OneDrive/Pictures/Edit%20Flag.png)
+![](../image/Manage%20Flags.png)
+![](../image/Edit%20Flag.png)
 
 **Note:**
 
