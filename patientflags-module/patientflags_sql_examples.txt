@@ -1,0 +1,36 @@
+///Abnormal Respiratory Rate
+SELECT p.patient_id
+FROM obs o
+INNER JOIN patient p ON o.person_id = p.patient_id
+AND o.concept_id = 5242
+AND o.voided = 0
+AND ((o.value_numeric > 25) OR (o.value_numeric < 12));
+
+
+///High Temperature >= 38.5
+SELECT p.patient_id
+FROM obs o
+INNER JOIN patient p ON o.person_id  = p.patient_id
+WHERE o.concept_id = 5088
+AND o.voided = 0
+AND o.value_numeric >= 38.5;
+
+
+///Hypertension alert (Systolic >=130 && Diastolic >= 90)
+SELECT p.patient_id
+FROM (SELECT a.person_id
+      FROM obs a, obs b
+      WHERE a.person_id=b.person_id
+      AND (a.concept_id = 5085 AND a.voided=0 AND a.value_numeric>=130)
+      AND (b.concept_id=5086 AND b.voided=0 AND b.value_numeric>=90)) AS obs1
+INNER JOIN patient p ON obs1.person_id = p.patient_id;
+
+
+
+///Hypoxemia: Low Blood Oxygen (< 90%)
+SELECT p.patient_id
+FROM obs o
+INNER JOIN patient p ON o.person_id = p.patient_id
+WHERE o.concept_id = 5092
+AND o.voided = 0
+AND o.value_numeric < 90;
