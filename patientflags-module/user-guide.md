@@ -11,7 +11,7 @@
 - Modify existing priorities.
 - Delete priorities.
 
-![Priorities](C:\Users\trank\OneDrive\Pictures\Manage Priorities.png)
+![ManagePriorities](../../OneDrive/Pictures/Manage%20Priorities.png)
 
 **Note:**
 
@@ -29,18 +29,18 @@
 - Modify existing tags.
 - Delete tags.
 
-![ManageTags](C:\Users\trank\OneDrive\Pictures\Manage Tags.png)
+![ManageTags](../../OneDrive/Pictures/Manage%20Tags.png)
 
 #### **Edit Tag**
 
-![EditTag](C:\Users\trank\OneDrive\Pictures\Edit Tags.png "Edit Tag")
+![EditTags](file:///C:/Users/trank/OneDrive/Pictures/Edit%20Tags.png)
 
 **Note:**
 - Tag: The tag name 
 - Visible To: Allow choosing multiple user groups
 - Show In: referring to Display points, which is empty in the database. Because in Manage Flag Global Properties, the default setup is on both Patient Overview and Patient Header.
 
-![ManageFlagGlobalProperties](C:\Users\trank\OneDrive\Pictures\flagProperties.png)
+![GlobalProperties](../../OneDrive/Pictures/flagProperties.png)
 
 ---
 
@@ -52,9 +52,9 @@
 - Delete flags.
 - Filter flags by tags.
 
-![ExistingFlags](C:\Users\trank\OneDrive\Pictures\Manage Flags.png "Existing Flags")
+![ExistingFlags](../../OneDrive/Pictures/Manage%20Flags.png)
 
-![EditFlag](C:\Users\trank\OneDrive\Pictures\Edit Flag.png "Edit FLag")
+![EditFlag](../../OneDrive/Pictures/Edit%20Flag.png)
 
 **Note:**
 
@@ -69,4 +69,4 @@
 - Find patients associated with a particular flag.
 - Display Patient particulars, associated tags and flag enabled status.
 
-![FlaggedPatients](C:\Users\trank\OneDrive\Pictures\Flagged Patients.png)
+![](../../OneDrive/Pictures/Flagged%20Patients.png)
