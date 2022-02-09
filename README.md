@@ -36,9 +36,9 @@ There are two options for deploying OpenMRS instance on Docker:
 1. Install OpenMRS with small data set of 30 patients
 2. Install OpenMRS without demo data
 
-**Installation Guide:** [README.md](openmrs-docker\README.md) in *openmrs-docker* folder
+**Installation Guide:** [README.md](openmrs-docker/README.md) in *openmrs-docker* folder
 
-**User Guide:**: [user-guide.md](openmrs-docker\user-guide.md) in *openmrs-docker* folder
+**User Guide:**: [user-guide.md](openmrs-docker/user-guide.md) in *openmrs-docker* folder
 
 <br>
 
