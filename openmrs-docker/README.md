@@ -31,11 +31,11 @@ cd openmrs
   ```
 
 2. To install without data:
-   1. Delete **dbdump folder** in the openmrs folder
+- Delete **dbdump folder** in the openmrs folder
 
-   2. Under ***web service*** in [docker-compose.yml](openmrs/docker-compose.yml) file in the openmrs folder:
-      1. Change **image:** from *ninatran/openmrs-reference-application:2.12* into *referenceapplication:2.12.2* (or any new image name prefered)
-      2. Change **DB_CREATE_TABLES:** and **DB_AUTO_UPDATE:** from *false* into *true*.
+- Under ***web service*** in [docker-compose.yml](openmrs/docker-compose.yml) file in the openmrs folder:
+  - Change **image:** from *ninatran/openmrs-reference-application:2.12* into *referenceapplication:2.12.2* (or any new image name prefered)
+  - Change **DB_CREATE_TABLES:** and **DB_AUTO_UPDATE:** from *false* into *true*.
 
       **docker-compose.yml file differences:**
 
@@ -43,7 +43,7 @@ cd openmrs
       | :---: | :---: |
       | ![fileWithData](../image/demo.png) | ![fileWithoutData](../image/nodata.png) |
 
-   3. After saving all the changes, run the command:
+  - After saving all the changes, run the command:
 
       ```shell
       docker-compose up
