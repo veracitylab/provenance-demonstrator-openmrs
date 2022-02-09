@@ -24,7 +24,9 @@ mvn clean install -DskipTests=true -Dmaven.javadoc.skip=true --batch-mode --show
    - Username: Admin
    - Password: Admin123
 3. On the new UI, select **System Administration > Advanced Administration > Manage Modules > Add or Upgrade Module**.
+![ManageModule](../image/managemodule.png)
 4. Under **Add Module**, browse to **patientflags-3.0.3-SNAPSHOT.omod** and select the **Upload Module** button.
+![Addmodule](../image/addmodule.png)
 
 **Note:** Uploading module will take some time to generate resources and change database. When the upload process is complete you will see a window displays module details:
 
