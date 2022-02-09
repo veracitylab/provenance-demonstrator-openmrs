@@ -16,23 +16,38 @@ Run openmrs distribution referenceapplication and mysql as docker containers wit
 
 ---
 
-### To start both containers
+### To start both containers for installing OpenMRS on Docker
 
-From current directory: openmrs-docker
+> **Note:** Using the openmrs folder in this directory for both installation options (with or without demo data)
 
-1. To install without data:
+```shell
+cd openmrs
+```
+
+1. To install with demo data: 30 patients
 
   ```shell
-  cd no-data
   docker-compose up
   ```
 
-2. To install with demo data: 30 patients
+2. To install without data:
+   1. Delete **dbdump folder** in the openmrs folder
 
-  ```shell
-  cd demo-data
-  docker-compose up
-  ```
+   2. Under ***web service*** in [docker-compose.yml](openmrs/docker-compose.yml) file in the openmrs folder:
+      1. Change **image:** from *ninatran/openmrs-reference-application:2.12* into *referenceapplication:2.12.2* (or any new image name prefered)
+      2. Change **DB_CREATE_TABLES:** and **DB_AUTO_UPDATE:** from *false* into *true*.
+
+      **docker-compose.yml file differences:**
+
+      | Demo Data | No Data |
+      | :---: | :---: |
+      | ![fileWithData](../image/demo.png) | ![fileWithoutData](../image/nodata.png) |
+
+   3. After saving all the changes, run the command:
+
+      ```shell
+      docker-compose up
+      ```
 
 The initial setup which follows may take some time; just let it run in the background.
 
@@ -43,6 +58,7 @@ When these log messages appear on the screen, the application will be accessible
 Username: admin
 Password: Admin123
 ```
+
 **Note:** This is Super User account (system administrators), which is automatically granted all privileges in the system.
 
 Details about different user accounts initially built-in OpenMRS will be described in [usage-guide.md](./usage-guide.md)
