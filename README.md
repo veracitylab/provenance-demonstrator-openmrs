@@ -23,9 +23,9 @@ OpenMRS captures patient data through a set of clinical terminology associated w
 
 ### **Prerequisites**
 
-- Java 8
+- [Java 8](https://www.oracle.com/java/technologies/downloads/#java8-linux)
 - [Maven 3.8.4](https://maven.apache.org/download.cgi)
-- MySQL 8.0.27
+- MySQL 8.0.27 (included in docker-compose)
 
 <br>
 
@@ -69,6 +69,12 @@ In addition, the concept dictionary is a collection of definitions for any conce
 ### [**Deploy module**](patientflags-module/installation-guide.md)
 
 ### [**Usage guidance**](patientflags-module/usage-guide.md)
+
+Detail instruction for creating a flag: 
+- <https://wiki.openmrs.org/display/docs/Patient+Flags+Module>
+- <https://guide.openmrs.org/en/Using%20Data/patient-alerts-and-flags.html>
+
+<br>
 
 ![FlagsOnDashboard](image/Patient%20Flags%20on%20Patient%20Dashboard.png)
 
