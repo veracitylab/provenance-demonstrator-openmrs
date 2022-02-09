@@ -31,14 +31,14 @@ OpenMRS captures patient data through a set of clinical terminology associated w
 
 ### **Installation options and guidelines**
 
-There are two options for deploying OpenMRS instance:
+There are two options for deploying OpenMRS instance on Docker:
 
-1. Install OpenMRS server on Docker without demo data
-1. Install OpenMRS server on Docker with small data set of 30 patients
+1. Install OpenMRS with small data set of 30 patients
+2. Install OpenMRS without demo data
 
 **Installation Guide:** [README.md](openmrs-docker\README.md) in *openmrs-docker* folder
 
-**Usage Guide:**: [usage-guide.md](openmrs-docker\usage-guide.md) in *openmrs-docker* folder
+**User Guide:**: [user-guide.md](openmrs-docker\user-guide.md) in *openmrs-docker* folder
 
 <br>
 
@@ -68,7 +68,7 @@ In addition, the concept dictionary is a collection of definitions for any conce
 
 ### [**Deploy module**](patientflags-module/installation-guide.md)
 
-### [**User guidance**](patientflags-module/usage-guide.md)
+### [**Usage guidance**](patientflags-module/usage-guide.md)
 
 ![FlagsOnDashboard](image/Patient%20Flags%20on%20Patient%20Dashboard.png)
 
