@@ -114,3 +114,5 @@ For example, for patients who had had their vitals captured by clinicians, their
 <br>
 
 In conclusion, although OpenMRS already has a standardized concept dictionary, the system needs computerized algorithms to trace clinical data for a more transparent and truthful medical diagnosis.
+
+**Note:** [Provenance Scenario](patientflags-module/provenance-scenario.md)
