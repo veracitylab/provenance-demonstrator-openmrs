@@ -9,11 +9,14 @@ OpenMRS captures patient data through a set of clinical terminology associated w
   1. [Build OpenMRS](#build-openmrs)
      1. [Prerequisites](#prerequisites)
      2. [Installation options and guidelines](#installation-options-and-guidelines)
-  2. [Medical concepts in OpenMRS](#-medical-concepts-in-openmrs)
+  2. [Medical concepts in OpenMRS](#medical-concepts-in-openmrs)
   3. [Patient Flags module for tracing the provenance](#patient-flags-module-for-tracing-the-provenance)
        1. [Deploy module](#deploy-module)
-       2. [User guidance](#user-guidance)
-  4. [Provenance patients' data in OpenMRS through the Patient Flags module](#-provenance-patients-data-in-openmrs-through-the-patient-flags-module)
+       2. [Usage guidance](#usage-guidance)
+  4. [Provenance patients' data in OpenMRS through the Patient Flags module](#provenance-patients-data-in-openmrs-through-the-patient-flags-module)
+  5. [Provenance Use Cases](#provenance-use-cases)
+     1. [Provenance scenario](#provenance-scenario)
+     2. [Provenance inspection scenario](#provenance-inspection-scenario)
 
 <br>
 
@@ -70,7 +73,8 @@ In addition, the concept dictionary is a collection of definitions for any conce
 
 ### [**Usage guidance**](patientflags-module/usage-guide.md)
 
-Detail instruction for creating a flag: 
+Detail instruction for creating a flag:
+
 - <https://wiki.openmrs.org/display/docs/Patient+Flags+Module>
 - <https://guide.openmrs.org/en/Using%20Data/patient-alerts-and-flags.html>
 
@@ -115,4 +119,12 @@ For example, for patients who had had their vitals captured by clinicians, their
 
 In conclusion, although OpenMRS already has a standardized concept dictionary, the system needs computerized algorithms to trace clinical data for a more transparent and truthful medical diagnosis.
 
-**Note:** [Provenance Scenario](patientflags-module/provenance-scenario.md)
+<br>
+
+## **Provenance Use Cases**
+
+---
+
+### [Provenance scenario](provenance-user-case/provenance-scenario.md)
+
+### [Provenance inspection scenario](provenance-user-case/provenance-inspection.md)
